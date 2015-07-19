@@ -31,13 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2013\winforms-modernui-master\MetroFramework\bin\Release\MetroFramework.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\winforms-modernui-master\MetroFramework\bin\Release\MetroFramework.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework.Design">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2013\winforms-modernui-master\MetroFramework.Design\bin\Release\MetroFramework.Design.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\winforms-modernui-master\MetroFramework.Design\bin\Release\MetroFramework.Design.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework.Fonts">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2013\winforms-modernui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\winforms-modernui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
