@@ -113,12 +113,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.GroupBox groupBox1;
-        private MetroFramework.Controls.MetroButton metroButton2;
-        private MetroFramework.Controls.MetroButton metroButton3;
-        private MetroFramework.Controls.MetroButton metroButton4;
-        private MetroFramework.Controls.MetroButton metroButton1;
+        public MetroFramework.Controls.MetroButton metroButton2;
+        public MetroFramework.Controls.MetroButton metroButton3;
+        public MetroFramework.Controls.MetroButton metroButton4;
+        public MetroFramework.Controls.MetroButton metroButton1;
+        public System.Windows.Forms.Panel panel1;
 
     }
 }
