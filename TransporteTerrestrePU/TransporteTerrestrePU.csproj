@@ -69,22 +69,22 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos.cs">
+    <Compile Include="Mantenimientos\Mantenimientos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos.Designer.cs">
+    <Compile Include="Mantenimientos\Mantenimientos.Designer.cs">
       <DependentUpon>Mantenimientos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Matenimiento.cs">
+    <Compile Include="Mantenimientos\Matenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Matenimiento.Designer.cs">
+    <Compile Include="Mantenimientos\Matenimiento.Designer.cs">
       <DependentUpon>Matenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuMantenimiento.cs">
+    <Compile Include="Mantenimientos\MenuMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuMantenimiento.Designer.cs">
+    <Compile Include="Mantenimientos\MenuMantenimiento.Designer.cs">
       <DependentUpon>MenuMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
@@ -113,10 +113,10 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos.resx">
+    <EmbeddedResource Include="Mantenimientos\Mantenimientos.resx">
       <DependentUpon>Mantenimientos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Matenimiento.resx">
+    <EmbeddedResource Include="Mantenimientos\Matenimiento.resx">
       <DependentUpon>Matenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
