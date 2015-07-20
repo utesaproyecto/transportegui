@@ -51,10 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Consultas.cs">
+    <Compile Include="Consultas\Consultas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas.Designer.cs">
+    <Compile Include="Consultas\Consultas.Designer.cs">
       <DependentUpon>Consultas.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBase.cs">
@@ -62,6 +62,12 @@
     </Compile>
     <Compile Include="FormBase.Designer.cs">
       <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario de Registro de Rutas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario de Registro de Rutas.Designer.cs">
+      <DependentUpon>Formulario de Registro de Rutas.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -109,6 +115,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FormBase.resx">
       <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario de Registro de Rutas.resx">
+      <DependentUpon>Formulario de Registro de Rutas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
