@@ -49,7 +49,7 @@ namespace TransporteTerrestrePU.Lector_QR
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            string Codificador;
+            string Codificador="";
 
             if (videoSourcePlayer1.GetCurrentVideoFrame() != null)
             {

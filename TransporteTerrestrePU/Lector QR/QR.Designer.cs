@@ -33,7 +33,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
-            this.qrCodeImgControl1 = new Gma.QrCodeNet.Encoding.Windows.Forms.QrCodeImgControl();
             this.videoSourcePlayer2 = new AForge.Controls.VideoSourcePlayer();
             this.videoSourcePlayer3 = new AForge.Controls.VideoSourcePlayer();
             this.videoSourcePlayer4 = new AForge.Controls.VideoSourcePlayer();
@@ -41,7 +40,6 @@
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.qrCodeImgControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -66,11 +64,9 @@
             // 
             // qrCodeImgControl1
             // 
-            this.qrCodeImgControl1.ErrorCorrectLevel = Gma.QrCodeNet.Encoding.ErrorCorrectionLevel.M;
-            this.qrCodeImgControl1.Image = ((System.Drawing.Image)(resources.GetObject("qrCodeImgControl1.Image")));
+           this.qrCodeImgControl1.Image = ((System.Drawing.Image)(resources.GetObject("qrCodeImgControl1.Image")));
             this.qrCodeImgControl1.Location = new System.Drawing.Point(350, 267);
             this.qrCodeImgControl1.Name = "qrCodeImgControl1";
-            this.qrCodeImgControl1.QuietZoneModule = Gma.QrCodeNet.Encoding.Windows.Render.QuietZoneModules.Two;
             this.qrCodeImgControl1.Size = new System.Drawing.Size(100, 50);
             this.qrCodeImgControl1.TabIndex = 1;
             this.qrCodeImgControl1.TabStop = false;

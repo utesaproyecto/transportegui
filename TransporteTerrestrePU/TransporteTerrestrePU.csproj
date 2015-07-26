@@ -31,22 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.dll</HintPath>
+      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Controls">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Controls.dll</HintPath>
+      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Controls.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.dll</HintPath>
+      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Video.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.DirectShow">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.DirectShow.dll</HintPath>
+      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="BarcodeLib.BarcodeReader">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\BarcodeLib_NETBarcodeReader_Trial\BarcodeLib.BarcodeReader.dll</HintPath>
-    </Reference>
-    <Reference Include="Gma.QrCodeNet.Encoding">
-      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\QrCode.Net 0.4 Pre-Release\Gma.QrCodeNet.Encoder\Gma.QrCodeNet.Encoding.dll</HintPath>
+      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\Barcode QR\BarcodeLib.BarcodeReader.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\Desktop\6to Ciclo\winforms-modernui-master\MetroFramework\bin\Release\MetroFramework.dll</HintPath>
