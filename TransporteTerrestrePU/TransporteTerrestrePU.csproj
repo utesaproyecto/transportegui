@@ -30,6 +30,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Controls">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib.BarcodeReader">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\BarcodeLib_NETBarcodeReader_Trial\BarcodeLib.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding">
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\QrCode.Net 0.4 Pre-Release\Gma.QrCodeNet.Encoder\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\Desktop\6to Ciclo\winforms-modernui-master\MetroFramework\bin\Release\MetroFramework.dll</HintPath>
     </Reference>
@@ -39,6 +57,8 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>..\..\..\..\Desktop\6to Ciclo\winforms-modernui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -48,6 +68,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
@@ -69,28 +90,40 @@
     <Compile Include="Formulario de Registro de Rutas.Designer.cs">
       <DependentUpon>Formulario de Registro de Rutas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lector QR\QR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lector QR\QR.Designer.cs">
+      <DependentUpon>QR.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Mantenimientos.cs">
+    <Compile Include="Mantenimientos Form\Mantenimiento de Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Mantenimientos.Designer.cs">
+    <Compile Include="Mantenimientos Form\Mantenimiento de Empleado.Designer.cs">
+      <DependentUpon>Mantenimiento de Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos Form\Mantenimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos Form\Mantenimientos.Designer.cs">
       <DependentUpon>Mantenimientos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Matenimiento.cs">
+    <Compile Include="Mantenimientos Form\Matenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\Matenimiento.Designer.cs">
+    <Compile Include="Mantenimientos Form\Matenimiento.Designer.cs">
       <DependentUpon>Matenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\MenuMantenimiento.cs">
+    <Compile Include="Mantenimientos Form\MenuMantenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos\MenuMantenimiento.Designer.cs">
+    <Compile Include="Mantenimientos Form\MenuMantenimiento.Designer.cs">
       <DependentUpon>MenuMantenimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
@@ -119,13 +152,19 @@
     <EmbeddedResource Include="Formulario de Registro de Rutas.resx">
       <DependentUpon>Formulario de Registro de Rutas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lector QR\QR.resx">
+      <DependentUpon>QR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Mantenimientos.resx">
+    <EmbeddedResource Include="Mantenimientos Form\Mantenimiento de Empleado.resx">
+      <DependentUpon>Mantenimiento de Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos Form\Mantenimientos.resx">
       <DependentUpon>Mantenimientos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Matenimiento.resx">
+    <EmbeddedResource Include="Mantenimientos Form\Matenimiento.resx">
       <DependentUpon>Matenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">

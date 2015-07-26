@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace TransporteTerrestrePU
 {
-    public partial class Mantenimientos : FormBase
-    {
+    public partial class Mantenimientos:FormBase
+      {
         public Mantenimientos()
         {
             InitializeComponent();
-            prueba();
         }
-        public void prueba()
-        {
-            
-        }
+        
 
         private void metroTabControl1_Selected(object sender, TabControlEventArgs e)
         {
