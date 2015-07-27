@@ -31,19 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge">
-      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Controls">
-      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Controls.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Controls.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video">
-      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Video.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.dll</HintPath>
     </Reference>
     <Reference Include="AForge.Video.DirectShow">
-      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\AForge Video\Release\AForge.Video.DirectShow.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\AForge\Release\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
     <Reference Include="BarcodeLib.BarcodeReader">
-      <HintPath>\\psf\Google Drive\PROYECTO 1\QR\Barcode QR\BarcodeLib.BarcodeReader.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\6to Ciclo\Prueba de QR\LibreriasQR\BarcodeLib_NETBarcodeReader_Trial\BarcodeLib.BarcodeReader.dll</HintPath>
     </Reference>
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\Desktop\6to Ciclo\winforms-modernui-master\MetroFramework\bin\Release\MetroFramework.dll</HintPath>
@@ -117,9 +117,7 @@
     <Compile Include="Mantenimientos Form\Matenimiento.Designer.cs">
       <DependentUpon>Matenimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos Form\MenuMantenimiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Mantenimientos Form\MenuMantenimiento.cs" />
     <Compile Include="Mantenimientos Form\MenuMantenimiento.Designer.cs">
       <DependentUpon>MenuMantenimiento.cs</DependentUpon>
     </Compile>

@@ -18,5 +18,10 @@ namespace TransporteTerrestrePU
             
         }
         public virtual void Prueba() { }
+
+        private void FormBase_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

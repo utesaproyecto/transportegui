@@ -90,6 +90,7 @@
             this.groupMantenimiento.Size = new System.Drawing.Size(1016, 580);
             this.groupMantenimiento.TabIndex = 1;
             this.groupMantenimiento.TabStop = false;
+            this.groupMantenimiento.Enter += new System.EventHandler(this.groupMantenimiento_Enter);
             // 
             // tabVehiculo
             // 

@@ -47,16 +47,14 @@ namespace TransporteTerrestrePU
         private void metroButton1_Click(object sender, EventArgs e)
         {
 
-            Form obj = this;
-            try
-            {
-                TransporteTerrestrePU.Mantenimientos obj2 = (TransporteTerrestrePU.Mantenimientos)obj;
-                obj2.Prueba();
-
-            }
-            catch { }
+         
 
             
+        }
+
+        private void groupMantenimiento_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
